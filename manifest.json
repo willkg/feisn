@@ -5,7 +5,7 @@
     "description": "Fixes the 'Enter posts the comment' problem in Mozilla's Service Now",
     "homepage_url": "https://github.com/willkg/feisn",
     "icons": {
-        "48": "icons/fix-enter.png"
+        "48": "icons/fix-enter-48.png"
     },
     "permissions": [
         "*://mozilla.service-now.com/*"
