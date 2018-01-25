@@ -2,18 +2,18 @@
     "manifest_version": 2,
     "name": "feisn",
     "version": "1.0",
-    "description": "Fixes the 'Enter posts the comment' problem in Mozilla's Service Now",
+    "description": "Fixes the 'Enter posts the comment' problem in Service Now",
     "homepage_url": "https://github.com/willkg/feisn",
     "icons": {
         "48": "icons/fix-enter-48.png"
     },
     "permissions": [
-        "*://mozilla.service-now.com/*"
+        "*://*.service-now.com/*"
     ],
     "content_scripts": [
         {
             "matches": [
-                "*://mozilla.service-now.com/*"
+                "*://*.service-now.com/*"
             ],
             "js": [
                 "fix-enter.js"

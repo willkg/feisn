@@ -1,11 +1,11 @@
 # FEISN: fix enter in Service Now
 
-When adding a comment to an issue, Mozilla's Service Now binds the Enter key
-to posting the comment. When doing one-line comments, that's fine. However,
-there are a plethora of very common cases where that's not fine. For example,
-using multiple lines to enter a postal address, using multiple paragraphs to
-answer multiple questions, and so on. Service Now's comment box suggests you
-do Shift-Enter to add a new line for these common scenarios.
+When adding a comment to an issue, Service Now binds the Enter key to posting
+the comment. When doing one-line comments, that's fine. However, there are
+a plethora of very common cases where that's not fine. For example, using
+multiple lines to enter a postal address, using multiple paragraphs to answer
+multiple questions, and so on. Service Now's comment box suggests you do
+Shift-Enter to add a new line for these common scenarios.
 
 Further, if you hit the Enter key twice in rapid succession because you
 forgot that Enter posts the comment, it posts your half-written comment
@@ -13,10 +13,6 @@ twice.
 
 I think that's terrible and I'd rather the whole Enter-to-post thing wasn't
 a thing. This extension alleviates that.
-
-**Note: I only use Mozilla's Service Now instance--I have no idea if this
-is true of all Service Now instances so this only applies to the Mozilla
-one.**
 
 
 ## Features
